@@ -27,4 +27,4 @@ while i < len(sys.argv):
     SetConf(i, sys.argv[i])
     i += 2
 SaveFile()
-#os.system('dispatch.py')
+os.system('dispatch.py')
